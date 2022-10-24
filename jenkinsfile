@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('vcs') {
             steps {
-                git branch: 'master', url:'https://github.com/rohi3369/python-webcount.gitc'
+                git branch: 'master', 
+                url:'https://github.com/rohi3369/python-webcount.git'
             }
 
         }
